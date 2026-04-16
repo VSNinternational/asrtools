@@ -1,0 +1,33 @@
+Type: Package
+Package: ASRtools
+Title: Extra tools for ASRpackages
+Version: 0.1.1
+Authors@R: c(
+    person("Giovanni", "Galli", , "giovanni.galli@vsni.co.uk", role = "aut"),
+    person("Salvador", "Gezan", , "salvador.gezan@vsni.co.uk", role = c("aut", "cre")),
+    person("Darren", "Murray", , "darren.murray@vsni.co.uk", role = "aut"),
+    person("VSN International", role = "cph")
+  )
+Description: Complementary functions for ASRpackages to help preparing data
+    or analyses, and to provide with additional tools to explore outputs.
+    Functions starting with dot (.) are not intended to be directly called by
+    the user.
+License: MIT + file LICENSE
+Depends: 
+    R (>= 4.2.0)
+Imports:
+    cli,
+    plyr,
+    methods,
+    jsonlite,
+    httr,
+    data.table
+Suggests: 
+    knitr,
+    rmarkdown,
+    spelling,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Encoding: UTF-8
+Language: en-GB
+RoxygenNote: 7.3.3
