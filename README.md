@@ -13,7 +13,7 @@ the source repository with:
 
 ```r
 # install.packages("remotes")
-remotes::install_github("VSNi/ASRtools")
+remotes::install_github("VSNinternational/asrtools")
 ```
 
 Or, from a local clone of this repository:
